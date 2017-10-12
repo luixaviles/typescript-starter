@@ -1,6 +1,10 @@
-import { Animal } from "./model/animal";
-import { Gato } from "./model/gato";
+// import { Animal } from "./model/animal";
+// import { Gato } from "./model/gato";
 
+import {Animal, Gato, PI, helloWorldTS} from './model';
+
+console.log('PI constant: ', PI);
+helloWorldTS();
 
 let helloWorld:string = 'Hello TypeScript world';
 let numberContainer:number = 2;
